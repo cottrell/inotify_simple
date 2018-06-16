@@ -12,7 +12,7 @@ if 'sdist' in sys.argv:
         f.write(pypandoc.convert('README.md', 'rst', format='markdown'))
 
 import os
-from distutils.core import setup
+from setuptools import setup
 
 __version__ = '1.1.7'
 
